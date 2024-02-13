@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="важные, ключевые, слова">
+    <meta name="description" content="краткое описание">
+    <title>Нормальная такая аналитика</title>
+    <link rel="stylesheet" href="css/index_styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+<body>
+<header>
+    <h1>Сервис для оценки залоговой стоимости типовых квартир</h1>
+</header>
+<main>
+    <section class="nu-tipo-navbar">
+        <aside>
+            <img src="images/home_icon.png" id="home_icon" alt="">
+            <nav>
+                <h3 id="nav_header">Навигация</h3>
+                <ul class="nav-list-ul">
+                    <li class="nav_li"><a href="index.html">Главная</a></li>
+                    <li class="nav_li"><a href="info_graph.html">Инфо-графика</a></li>
+                    <li class="nav_li"><a href="predict.html">Прогноз залоговой стоимости</a></li>
+                </ul>
+            </nav>
+        </aside>
+    </section>
+    <section>
+        <h3>Информация о проекте:</h3>
+        <p id="proj-info">
+            Проект предназначен для представления информации о стоимости типовых квартир на рынке вторичной недвижимости
+            в городе Санкт-Петербург
+        </p>
+        <section>
+            <h3>Наш стек технологий:</h3>
+            <ul>
+                <li>html5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Pytorch</li>
+                <li>TensorFlow</li>
+                <li>Sklearn</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Наши модели машинного обучения:</h3>
+            <p>
+                A(Q, V) = Softmax(QK<sup>T</sup>/(d<sub>attention</sub>)^<sup>1/2</sup>)
+            </p>
+        </section>
+        <section>
+            <h3>Как запустить наш проект локально из терминала:</h3>
+            <p>
+                <code>Node app.js</code>
+            </p>
+        </section>
+        <section>
+            <h3>Наш лозунг:</h3>
+            <p>
+                <q>
+                    Пиво пей спортсменов бей
+                </q>
+                <cite>- Неизвестный мыслитель</cite>
+            </p>
+        </section>
+    </section>
+    <table id="grid-table">
+        <thead>
+            <tr class="grid-table-tr">
+                <th class="grid-table-th" data-type="numeric">ID <span class="resize-handle"></span></th>
+                <th class="grid-table-th" data-type="text-short">First name <span class="resize-handle"></span></th>
+                <th class="grid-table-th" data-type="text-short">Last name <span class="resize-handle"></span></th>
+            </tr class="grid-table-tr">
+        </thead>
+        <tbody>
+            <tr class="grid-table-tr">
+                <td class="grid-table-td">000001</td>
+                <td class="grid-table-td">Lani</td>
+                <td class="grid-table-td">Ovendale</td>
+            </tr>
+            <tr class="grid-table-tr">
+                <td class="grid-table-td">000002</td>
+                <td class="grid-table-td">Israel</td>
+                <td class="grid-table-td">Tassell</td>
+            </tr>
+            <tr class="grid-table-tr">
+                <td class="grid-table-td">000003</td>
+                <td class="grid-table-td">Eveleen</td>
+                <td class="grid-table-td">Mercer</td>
+            </tr>
+            </tbody>
+    </table>
+
+        <section id="XB">
+            ____________$$$$$$$$
+            __________$$$$$$$$$$$$
+            ________$$$$$$$$$$$$$$$$
+            _______$$$$$$$$$$$$$$$$$$
+            ______$$$$$$$$$$$$$$$$$$$$
+            _____$$$$$$$$$$$$$$$$$$$$$$
+            ____$$$$$$$$$$$$$$$$$$$$$$$$
+            ___$$$$$$$$$$$$$$$$$$$$$$$$$$
+            __$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+            __$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+            __$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+            _$$$$__$$$$__$$$$$_______$$$$$$$
+            _$$$$$__$$__$$$$$$__$$$$__$$$$$$
+            $$$$$$$____$$$$$$$__$$$$__$$$$$$
+            $$$$$$$$__$$$$$$$$_______$$$$$$$
+            $$$$$$$____$$$$$$$__$$$$__$$$$$$
+            $$$$$$__$$__$$$$$$__$$$$__$$$$$$
+            _$$$$__$$$$__$$$$$__$$$$__$$$$$
+            _$$$__$$$$$$__$$$$_______$$$$$$
+            __$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+            __$$$$$$$$$$$$$$$$$$$$$$$$$$$
+            ___$$$$$$$$$$$$$$$$$$$$$$$$$
+            _____$$$$$$$$$$$$$$$$$$$$$$
+            _______$$$$$$$$$$$$$$$$$$
+            _________$$$$$$$$$$$$$$
+        </section>
+        <section id="TEKST">
+            Кстати, оказывается, что и метод кластеризации K-средних во многом сродни EM-алгоритму (и на самом деле представляет собой его предельный случай). Действительно, мы сначала случайно расставляем центры кластеров. Затем мы для каждого объекта пересчитываем расстояние до центра каждого кластера, после чего получаем «вес» объекта в каждом кластере («вес» в том смысле, что чем ближе объект к центру кластера, тем больше этот объект учитывается при пересчете центра этого кластера) через нормировку расстояний. Теперь если мы применяем настоящий метод K-средних, то приписываем объект к кластеру с самым большим «весом», после чего опять пересчитываем центры кластеров и потом опять перевзвешиваем для каждого объекта кластера. Строгое же применение EM-алгоритма даёт «мягкую» версию метода K-средних.
+        </section>
+    </section>
+</main>
+<footer>
+    <p id="loadTime"></p>
+</footer>
+</body>
+</html>
