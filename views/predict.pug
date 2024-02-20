@@ -1,0 +1,24 @@
+extends base.pug
+block title 
+    title Predict
+block content
+    h3 Приблизительная оценка стоимости типовой квартиры:
+    h4 Введите данные типовой квартиры:
+    #apartmentForm
+    form
+        label(for='area') Площадь:
+        #area
+        input(type='number', name='area', required)
+        label(for='rooms') Комнатность:
+        #rooms
+        input(type='number', name='rooms', required)
+        label(for='floors') Этажность дома:
+        #floors
+        input(type='number', name='floors', required)
+        label(for='floor') Этаж квартиры:
+        #floor
+        input(type='number', name='floor', required)
+        input(type='submit', value='Добавить')
+block footer 
+    #loadTime
+    p

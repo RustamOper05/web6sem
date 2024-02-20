@@ -4,7 +4,19 @@ import { Controller, Get, Render } from '@nestjs/common';
 export class AppController {
   @Get("index")
   @Render("index.pug")
-  getPage() {
+  getIndex() {
+    return
+  }
+
+  @Get("info_graph")
+  @Render("info_graph.pug")
+  getInfoGraph() {
+    return
+  }
+
+  @Get("predict")
+  @Render("predict.pug")
+  getPredict() {
     return
   }
 }
